@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandy.Blog.Swagger", "src\M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandy.Blog.ToolKits", "src\Mandy.Blog.ToolKits\Mandy.Blog.ToolKits.csproj", "{E4D8E930-450B-4E8F-A97D-60A4DC528FB2}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1D146FFA-81E0-445D-829A-64768CA4FFC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{E4D8E930-450B-4E8F-A97D-60A4DC528FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4D8E930-450B-4E8F-A97D-60A4DC528FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4D8E930-450B-4E8F-A97D-60A4DC528FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D146FFA-81E0-445D-829A-64768CA4FFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D146FFA-81E0-445D-829A-64768CA4FFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D146FFA-81E0-445D-829A-64768CA4FFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D146FFA-81E0-445D-829A-64768CA4FFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

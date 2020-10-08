@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mandy.blog.httpapi.hosting:
+    image: ${DOCKER_REGISTRY-}mandybloghttpapihosting
+    build:
+      context: .
+      dockerfile: src/Mandy.Blog.HttpApi.Hosting/Dockerfile
