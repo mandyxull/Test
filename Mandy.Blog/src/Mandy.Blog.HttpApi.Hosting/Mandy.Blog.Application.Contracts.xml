@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mandy.Blog.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:Mandy.Blog.Blog.PostDto.Title">
+            <summary> 
+             标题 
+            </summary> 
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.Author">
+            <summary> 
+            作者 
+            </summary> 
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.Url">
+            <summary> 
+                链接 
+                </summary>
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.Html">
+            <summary> 
+             HTML
+             </summary> 
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.Markdown">
+            <summary>
+            Markdown
+            </summary> 
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.CategoryId">
+             
+            <summary> 
+             分类Id 
+             </summary> 
+        </member>
+        <member name="P:Mandy.Blog.Blog.PostDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Mandy.Blog.PagingInput">
+            <summary>
+            分页输入参数
+            </summary>
+        </member>
+        <member name="P:Mandy.Blog.PagingInput.Page">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Mandy.Blog.PagingInput.Limit">
+            <summary>
+            限制条数
+            </summary>
+        </member>
+    </members>
+</doc>

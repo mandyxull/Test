@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>04928e07-d90b-4b54-b9a2-4d1fcc2b0ba5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>   
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="2.7.0" />
+    <ProjectReference Include="..\Mandy.Blog.BackgroundJobs\Mandy.Blog.BackgroundJobs.csproj" />
+    <ProjectReference Include="..\Mandy.Blog.EntityFrameworkCore.DbMigrations\Mandy.Blog.EntityFrameworkCore.DbMigrations.csproj" />
+    <ProjectReference Include="..\Mandy.Blog.EntityFrameworkCore\Mandy.Blog.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Mandy.Blog.HttpApi\Mandy.Blog.HttpApi.csproj" />
+    <ProjectReference Include="..\Mandy.Blog.Swagger\Mandy.Blog.Swagger.csproj" />    
+    
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <None Update="Mandy.Blog.Application.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Mandy.Blog.Domain.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Mandy.Blog.HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
